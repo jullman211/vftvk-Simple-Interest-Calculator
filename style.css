@@ -1,8 +1,26 @@
-body {background-color:black;font-family:arial;color:white}
-h1{color:grey;font-family:verdana}
-.maindiv{
+body {background-color:black;font-family:arial;color:white;}
+h1{color:grey;font-family:verdana;}
+
+/*for the background body containing information*/
+.maindiv {
     background-color: white;
     color:black;
+    width: 300px;
+    padding: 20px;
+    border-radius: 25px; 
+    align-items: center;
 }
 
+/*Allows for padded indent after labels*/
+input,
+label,
+select {
+  float: left;
+}
 
+label {
+    width: 100px;
+    clear: left;
+    text-align: left;
+    padding-right: 10px;
+  }
