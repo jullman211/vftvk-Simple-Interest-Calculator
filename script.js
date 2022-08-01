@@ -20,7 +20,7 @@ function compute()
     else{
         // create print statement for output when compute button is selected
         var intr = "If you deposit <mark>" + principal+",</mark><br>";
-        var rt = "at an interest rate of <mark>" + rate+"%,</mark><br>";
+        var rt = "at an interest rate of <mark>" + rate+"%.</mark><br>";
         var amt = "You will receive an amount of <mark>"+ interest+",</mark><br>";
         var yer = "in the year <mark'>" + year +"</mark>"; 
        

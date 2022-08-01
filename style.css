@@ -9,6 +9,7 @@ h1{color:grey;font-family:verdana;}
     padding: 20px;
     border-radius: 25px; 
     align-items: center;
+    margin: auto;
 }
 
 /*Allows for padded indent after labels*/
